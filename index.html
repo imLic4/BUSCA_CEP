@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <title>busca cep</title>
+</head>
+<body>
+    <div class="container-principal">
+
+        <h2 class="titulo">Pesquisa cep</h2><br><br>
+        <input id="cep" placeholder="Digite o cep:"> <br><br> 
+       
+
+        <h2 >Endereço:</h2> 
+        <input type="text" id="endereco" >
+        <h2 >Bairro:</h2> 
+        <input type="text" id="bairro" >
+        <h2 >Cidade:</h2> 
+        <input type="text" id="cidade" >
+        <h2 >Estado:</h2> 
+        <input type="text" id="estado" >
+        <h2 >Região:</h2> 
+        <input type="text" id="regiao" ><br><br><br>
+
+
+        <input onclick="coletarcep()"
+             type="button" value="Iniciar Pesquisa">
+    
+            
+<!-- ctrl=k=c é o comentário/ br é pra pular paragráfo -->
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
